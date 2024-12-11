@@ -15,9 +15,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/Customers">Customers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/Product">Product</a></li>
+                    <ul aria-expanded="false" class="collapse first-level"> 
+                        <li class="nav-item"><a class="nav-link" href="/Data_Product">Data Product</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/Category">Data Category</a></li>
+                    </ul>
+                    <li class="nav-item"><a class="nav-link" href="/Logout">Logout</a></li>
                 </ul>
             </div>
         </div>
